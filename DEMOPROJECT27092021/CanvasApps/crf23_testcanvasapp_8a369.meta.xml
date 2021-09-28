@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>crf23_testcanvasapp_8a369</Name>
+  <AppVersion>2021-09-27T05:37:59Z</AppVersion>
+  <Status>NotReady</Status>
+  <CreatedByClientVersion>3.21092.24.0</CreatedByClientVersion>
+  <MinClientVersion>3.21092.24.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"c9f4feca-64a1-4726-8029-9c19921702a3","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21092.24","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>TestCanvasApp</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"87694390-eb00-4d5e-8612-517a0b3395f4":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1438/1.0.1438.2324/logicflows/icon.png","dataSources":["PowerAppV2-&gt;Getitems,Initializevariable,RespondtoaPowerAppo..."],"dependencies":["fb73acd8-d6be-4a79-a2bd-c8044dc54c47"],"dependents":[],"parameterHints":{"workflowName":{"value":"fbb5a7d4-e51d-413b-af05-e824fd007916"},"workflowEntityId":{"value":"09e31b64-541f-ec11-b6e6-000d3ab86ec3"},"fb73acd8-d6be-4a79-a2bd-c8044dc54c47":{"value":"shared_sharepointonline"}},"parameterHintsV2":{"workflowName":{"value":"fbb5a7d4-e51d-413b-af05-e824fd007916"},"workflowEntityId":{"value":"09e31b64-541f-ec11-b6e6-000d3ab86ec3"},"shared_sharepointonline":{"value":"fb73acd8-d6be-4a79-a2bd-c8044dc54c47"}},"isOnPremiseConnection":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"fb73acd8-d6be-4a79-a2bd-c8044dc54c47":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1487/1.0.1487.2472/sharepointonline/icon.png","dataSources":[],"dependencies":[],"dependents":["87694390-eb00-4d5e-8612-517a0b3395f4"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"dataSets":{},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"2305fafc-1c9a-41ec-b67d-d15b66bca969":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1487/1.0.1487.2472/sharepointonline/icon.png","dataSources":["SPO_List_Test_27092021"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"dataSets":{"https://volvogroup.sharepoint.com/sites/proj-coe_dev":{"datasetOverride":{"environmentVariableName":"crf23_SPO_Site_Test_27092021"},"dataSources":{"SPO_List_Test_27092021":{"tableName":"37079a07-adf8-442c-a38d-95235e781a6a","tableNameOverride":{"environmentVariableName":"crf23_SPO_List_Test_27092021"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"crf23_SPO_Site_Test_27092021","componenttype":380},{"logicalname":"crf23_SPO_List_Test_27092021","componenttype":380}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/crf23_testcanvasapp_8a369_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/crf23_testcanvasapp_8a369_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
